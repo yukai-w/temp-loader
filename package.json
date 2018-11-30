@@ -1,0 +1,31 @@
+{
+  "name": "temp-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukai-w/temp-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukai-w/temp-loader/issues"
+  },
+  "homepage": "https://github.com/yukai-w/temp-loader#readme",
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "memory-fs": "^0.4.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
